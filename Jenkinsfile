@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Verify') {
       steps {
-        bat 'mvn verify'
+        bat 'mvn compile'
       }
     }
     stage('Test') {
