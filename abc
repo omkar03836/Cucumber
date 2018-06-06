@@ -1,0 +1,3 @@
+<artifactId>kafkarouter</artifactId>
+<version>1.0-${env}</version>
+<packaging>jar</packaging>
